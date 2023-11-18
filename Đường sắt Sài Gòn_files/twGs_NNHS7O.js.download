@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("reactDOMRenderLogger",[],(function(a,b,c,d,e,f){"use strict";function a(a,b){switch(a){case"render":return"Detected a legacy ReactDOM.render call from '"+b+"', which will render using a concurrent root if `react_dom_render_shim` GK passes. This callsite should be migrated to ReactDOM.createRoot().";case"renderForAds":return"Detected a legacy ReactDOM.renderForAds call from '"+b+"', which will render using a concurrent root if `ads_manager_readiness_to_react_18` GK passes. This callsite should be migrated to ReactDOM.createRoot()."}}function b(a,b){}f["default"]=b}),66);
